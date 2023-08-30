@@ -39,7 +39,9 @@ export default function Scene() {
         <directionalLight position={[1, 2, 3]} intensity={directionalLight} />
         <mesh position={[position.x, position.y, 0]} scale={1}>
             <torusKnotGeometry />
-            <Html distanceFactor={10} position={[positionText.x, positionText.y, positionText.z]} className="bg-gunmetal p-5 rounded-lg text-melon w-fit">
+            <Html distanceFactor={10} position={[positionText.x, positionText.y, positionText.z]} className="bg-gunmetal p-5 rounded-lg text-melon w-fit opacity-75
+
+">
                 <h1>Coucou</h1>
                 <p>ici on peut raconter l'histoire de la CGN</p>
             </Html>
