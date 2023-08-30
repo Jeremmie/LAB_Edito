@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <Canvas>
+      <Canvas className='h-screen bg-melon'>
         <Scene />
       </Canvas>
     </>
