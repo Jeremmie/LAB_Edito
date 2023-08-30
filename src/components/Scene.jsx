@@ -13,7 +13,7 @@ export default function Scene() {
             joystick: 'invertY',
         },
         positionText: {
-            value: { x: 0, y: 0, z: 0 },
+            value: { x: 1, y: -0.2, z: 1 },
             min: - 10,
             max: 10,
             step: 0.01,
