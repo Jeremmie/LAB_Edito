@@ -6,7 +6,7 @@ export default function Terrain() {
     const modelTerrain = useGLTF('../src/assets/model/geneve.glb')
 
     const { color } = useControls({
-        color: '#de3011',
+        color: '#ff0000',
     })
 
     return (<>
