@@ -6,6 +6,7 @@ import './index.css'
 import Scene from './components/Scene'
 import { Canvas } from '@react-three/fiber'
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useControls } from 'leva'
 
 import {
@@ -57,6 +58,14 @@ function App() {
           </SheetProvider>
         </ScrollControls>
 =======
+=======
+
+function App() {
+
+
+  return (
+    <>
+>>>>>>> parent of 298bd59... tweak bgColor
       <Canvas className='h-screen bg-melon'>
         <Scene />
 >>>>>>> parent of 298bd59... tweak bgColor
