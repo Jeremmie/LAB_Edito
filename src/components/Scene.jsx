@@ -1,6 +1,6 @@
 import React from "react"
 import * as THREE from 'three'
-import { Environment, Html, OrbitControls } from "@react-three/drei"
+import { Html, OrbitControls } from "@react-three/drei"
 import { useControls } from 'leva'
 import Terrain from "./Terrain"
 import { Canvas, useFrame } from "@react-three/fiber";

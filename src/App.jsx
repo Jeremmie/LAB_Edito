@@ -5,6 +5,7 @@ import viteLogo from '/vite.svg'
 import './index.css'
 import Scene from './components/Scene'
 import { Canvas } from '@react-three/fiber'
+<<<<<<< HEAD
 import { useControls } from 'leva'
 
 import {
@@ -21,6 +22,11 @@ function App() {
   const { bgColor } = useControls({
     bgColor: '#2b67d1',
   })
+=======
+
+function App() {
+
+>>>>>>> parent of 298bd59... tweak bgColor
 
   const pageBtn = useRef()
   const openMenu = () => {
@@ -32,6 +38,7 @@ function App() {
 
   return (
     <>
+<<<<<<< HEAD
       <div ref={pageBtn} onClick={openMenu} className='w-fit bg-melon px-2 py-1 absolute z-40 rounded-full transitionAll'>open</div>
       <div className='rounded-t-lg slidePage -bottom-full w-screen fixed z-30 bg-gunmetal/90 p-5 text-white transitionAll'>
         <h1 className='FONTCONDENSEND mt-5 text-4xl'>débarcadère</h1>
@@ -49,6 +56,10 @@ function App() {
             <Scene />
           </SheetProvider>
         </ScrollControls>
+=======
+      <Canvas className='h-screen bg-melon'>
+        <Scene />
+>>>>>>> parent of 298bd59... tweak bgColor
       </Canvas>
     </>
   )
