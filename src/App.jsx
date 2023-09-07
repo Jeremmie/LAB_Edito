@@ -4,9 +4,6 @@ import viteLogo from '/vite.svg'
 import './index.css'
 import Scene from './components/Scene'
 import { Canvas } from '@react-three/fiber'
-import { useControls } from 'leva'
-
-
 
 function App() {
   const sheet = getProject("Fly Through").sheet("Scene");
@@ -14,8 +11,7 @@ function App() {
 
   return (
     <>
-      <Canvas className='h-screen'>
-        <color args={[bgColor]} attach="background" />
+      <Canvas className='h-screen bg-melon'>
         <Scene />
       </Canvas>
     </>
